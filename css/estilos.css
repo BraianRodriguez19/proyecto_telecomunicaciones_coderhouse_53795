@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
+/*reseteo de valores*/
+*{
+    margin:0;
+    padding:0;
+                   
+}
+
+.header{
+    
+    background-color: rgba(69, 67, 165, 0.445);
+    color: white;
+    .logo img{
+        width: 100px;
+    }
+    
+    
+
+}
+body{
+    background-color: rgb(81, 159, 226);
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+
+    text-align: center;
+    background-color: rgba(96, 197, 223, 0.979);
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    font-size: 1rem;
+
+    font-family: "Roboto", sans-serif;
+    width: 50%;
+    margin: 0% auto;
+    padding-bottom: 10px;
+}
+
+
+.tarjeta{
+    
+    width: 600px;
+    margin: 10px;
+    ;}
+    /*esto lo tuve que dejar porque cuando lo quiero acomodar con boostrap me queda disparejo*/
+    .imgtarjeta{
+        width: 100%;
+        height: 60%;
+    object-fit: contain;
+    object-fit: cover ;
+
+}
+    
+        
+   
+       
+
+
+
+
+
+/*tarjeta{
+    width: 500px;
+    margin: 10px;
+
+    .imgtarjeta{
+        width: 100%;
+    }
+}
+.bodyTarjeta{
+    padding-left: 10px; 
+    .tituloH3Tarjeta{
+     margin-top:10px;
+     margin-bottom:10px;
+    }
+
+
+}
+
+
+
+/**h2{
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+
+    text-align: center;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+img{
+    width: 800px;
+ 
