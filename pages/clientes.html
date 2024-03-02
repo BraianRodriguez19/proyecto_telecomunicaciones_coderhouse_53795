@@ -15,7 +15,7 @@
     
 <body>
   <header class="header p-2 position-sticky top-0">
-      <nav class="navbar navbar-expand-lg navbar-light ">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-brand ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <a class="logo" href="../index.html">
@@ -28,7 +28,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end ">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -37,64 +37,77 @@
                     <a class="nav-link" href="servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="clientes.html">Clientes</a>
+                    <a class="nav-link active" href="clientes.html">Clientes</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
-          </div>
+        </div>
       </nav>
   </header>
-  <main>
+  <main class="container-fluid">
           <h1>Nuestros clientes</h1>
-      <section>
+          <div class="container d-flex mb-3 mb-sm-3" >
+            <p>
+              La confianza depositada por otras empresas en la nuestra se erige como un testimonio elocuente de nuestra sólida reputación y compromiso inquebrantable con la excelencia. A lo largo de nuestra trayectoria, hemos cultivado relaciones estratégicas con diversas organizaciones, quienes han optado por asociarse con nosotros debido a la calidad consistente de nuestros productos/servicios y a nuestra capacidad para cumplir con compromisos de manera confiable. La confianza mutua que compartimos con estas empresas ha sido forjada mediante una transparencia sin reservas, integridad en todas nuestras interacciones y un enfoque diligente en la satisfacción del cliente. Estamos orgullosos de ser respaldados por la confianza de estas empresas, lo cual nos impulsa a seguir innovando y superando expectativas en el panorama empresarial.</p>
+          </div>
+          
+      <section class=" container d-flex flex-wrap justify-content-between">
+
+          <div class="tarjeta m-3 shadow bg-body-tertiary">
             <a href="https://www.telecom.com.ar/web/" target="_blank">
-              <img src="../assets/img/telecom_logo.jpg" alt="imagen del logo de la empresa telecom">
+              <img class=" imagenes w-100 object-fit-cover" src="../assets/img/Telecom_logo_nuevo.jpg" alt="imagen del logo de la empresa telecom">
             </a>
-              <a href="https://www.claro.com.ar/personas" target="_blank">
-                <img src="../assets/img/claro_logo.png" alt="imagen del logo de la empresa claro">
-              </a>
-              <a href="https://consumer.huawei.com/cl/" target="_blank">
-                <img src="../assets/img/hawuei_logopng.png" alt="imagen del logo de la empresa huawei">
-              </a>
-              <a href="https://www.movistar.com.ar/" target="_blank">
-                <img src="../assets/img/logo_movistar.jpg" alt="imagen del logo de la empresa movistar">
-              </a>
+          </div>
+           <div class="tarjeta m-3 shadow bg-body-tertiary">
+            <a href="https://www.claro.com.ar/personas" target="_blank">
+              <img class=" imagenes w-100 object-fit-cover" src="../assets/img/claro_logo.png" alt="imagen del logo de la empresa claro">
+            </a>
+           </div>
+              <div class="tarjeta m-3 shadow bg-body-tertiary">
+                <a href="https://consumer.huawei.com/cl/" target="_blank">
+                  <img class=" imagenes w-100 object-fit-cover" src="../assets/img/hawuei_logopng.png" alt="imagen del logo de la empresa huawei">
+                </a>
+              </div>
+              <div class="tarjeta m-3 shadow bg-body-tertiary">
+                <a href="https://www.movistar.com.ar/" target="_blank">
+                  <img class=" imagenes w-100 object-fit-cover mb-sm-3" src="../assets/img/movistar.png" alt="imagen del logo de la empresa movistar">
+                </a>
+              </div>
         </section>
   </main>
            
   <footer>
-    <div class="container-fluid">
-      <div class="row p-5 bg-secondary text-white">
-        
-        <div class="col-xs-12 col-md-6 col-lg-3">
-        
-           <h2>Nuestras redes sociales</h2>
-            <a href="https://www.whatsapp.com" target="_blank">
+    <div class="container-fluid bg-dark text-white">
+      <div class="row">
+        <section class="col-12 col-md-4 mb-4 mb-md-0 pb-4 pd-md-0">
+
+          <h2>Nuestras redes sociales</h2>
+            <a class="iconos" href="https://www.whatsapp.com" target="_blank">
               <i class="fa-brands fa-whatsapp"></i>
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+          <a class="iconos" href="https://www.instagram.com/" target="_blank">
               <i class="fa-brands fa-instagram"></i>
-            </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-3">
-            
-            <h2>Donde encontrarnos</h2>
-            <p>Corrientes y Callao</p>
-            <p>capital federal</p>
-            <p>ciudad autonoma de buenos aires</p>
-            
-        </div>
-          <div class="col-xs-12 col-md-6 col-lg-3">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9891923366577!2d-58.392315999999994!3d-34.6044348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac198206de7%3A0x31a4c79ffb528624!2sAv.%20Corrientes%20%26%20Av.%20Callao%2C%20C1042%20CABA!5e0!3m2!1ses-419!2sar!4v1707068871416!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-3">
-           <h2>Contacto</h2>
-            <p >1155552805</p>
-            <p >Br_telecomunicaciones@outlook.com.ar</p>
-          </div>
+          </a>
+          <a class="iconos" href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </section>
+        <section class="col-12 col-md-4 mb-4 mb-md-0 pb-4 pd-md-0">
+  
+          <h2>Donde encontrarnos</h2>
+          <p>Corrientes y Callao</p>
+          <p>capital federal</p>
+          <p>ciudad autonoma de buenos aires</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9891923366577!2d-58.392315999999994!3d-34.6044348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac198206de7%3A0x31a4c79ffb528624!2sAv.%20Corrientes%20%26%20Av.%20Callao%2C%20C1042%20CABA!5e0!3m2!1ses-419!2sar!4v1707068871416!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+       <section class="col-12 col-md-4 mb-4 mb-md-0 pb-4 pd-md-0">
+          <h2>Contacto</h2>
+          <p >1155552805</p>
+          <p >Br_telecomunicaciones@outlook.com.ar</p>
+       </section>
       </div>
     </div>
   </footer>

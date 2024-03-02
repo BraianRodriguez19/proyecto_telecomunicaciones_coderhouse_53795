@@ -9,14 +9,11 @@
 
 .header{
     
-    background-color: rgba(69, 67, 165, 0.445);
+    background-color: rgba(36, 1, 1, 0.562);
     color: white;
     .logo img{
         width: 100px;
     }
-    
-    
-
 }
 body{
     background-color: rgb(81, 159, 226);
@@ -25,78 +22,91 @@ body{
 h1{
     font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
-
     text-align: center;
-    background-color: rgba(96, 197, 223, 0.979);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 h2{
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 p{
     font-size: 1rem;
 
     font-family: "Roboto", sans-serif;
-    width: 50%;
-    margin: 0% auto;
-    padding-bottom: 10px;
+    @media (min-width:540px) and (max-width:720px){
+        font-size: 20px
+        paddingbottom 1rem;
+    }
+       
 }
+    
+.imagenes{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0,5s;
+    object-fit: cover;
+    &:hover{
+        transform: scale(1.2);
+    }
 
+}
 
 .tarjeta{
     
     width: 600px;
-    margin: 10px;
-    ;}
+    margin: 12px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+     
+}
     /*esto lo tuve que dejar porque cuando lo quiero acomodar con boostrap me queda disparejo*/
     .imgtarjeta{
         width: 100%;
-        height: 60%;
+        height: 100%;
+        transition: 0.5s;
     object-fit: contain;
     object-fit: cover ;
-
-}
-    
-        
-   
-       
-
-
-
-
-
-/*tarjeta{
-    width: 500px;
-    margin: 10px;
-
-    .imgtarjeta{
-        width: 100%;
-    }
-}
-.bodyTarjeta{
-    padding-left: 10px; 
-    .tituloH3Tarjeta{
-     margin-top:10px;
-     margin-bottom:10px;
+    &:hover{
+        transform: scale(1.2);
     }
 
-
 }
-
-
-
-/**h2{
-    
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
-
-    text-align: center;
+.bgboton{
+    color: #fff;
+    background-color: #fd0d0d;
+    border-color: #fd0d0d;
+    border-radius: 25px;
+    &:hover{
+        background-color: black;
+        border-color: black;
+    }
 }
-p{
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
+.iconos{
+    text-decoration: none;
+    .fa-whatsapp, .fa-instagram, .fa-facebook{
+        font-size: 5rem;
+        margin-right: 25px;
+        transition: 0.5s;
+        object-fit: cover;
+        &:hover{
+            transform: scale(1.2);
+        }
+
+    }
+    .fa-whatsapp{
+        color: #09e602;
+    }
+    .fa-instagram{
+        color: #c50dfd;
+    }
+    .fa-facebook{
+        color: blue;
+    }
+          
 }
-img{
-    width: 800px;
- 
